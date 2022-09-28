@@ -1,3 +1,96 @@
 body {
   background: peachpuff;
 }
+
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.a {
+  border: solid teal;
+  background: whitesmoke;
+  flex: 100%;
+  margin: 10px;
+  min-height: 150px;
+  text-align: center;
+}
+.b {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex: 25%;
+  text-align: center;
+  min-height: 150px;
+  max-width: 150px;
+}
+
+.c {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex: 25%;
+  text-align: center;
+  min-height: 150px;
+  max-width: 150px;
+}
+.d {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex: 50%;
+  text-align: center;
+  min-height: 150px;
+  max-width: 150px;
+}
+.e {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex-direction: row;
+  flex: 25%;
+  text-align: center;
+  min-height: 150px;
+  max-width: 150px;
+}
+
+.f {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex: 25%;
+  text-align: center;
+  min-height: 150px;
+  max-width: 150px;
+}
+.g {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex: 25%;
+  text-align: center;
+  min-height: 150px;
+  max-width: 150px;
+}
+.h {
+  border: solid teal;
+  background: whitesmoke;
+  margin: 10px;
+  flex: 100%;
+  text-align: center;
+  min-height: 150px;;
+}
+
+
+@media (min-width: 700px) {
+  .h {
+  flex: 25%;
+  text-align: center;
+  min-height: 300px;
+  max-width: 150px;
+  background: green;
+  align-self: flex-end;
+
+  }
+
+}
